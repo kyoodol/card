@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kyoodol 웹 명함</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="card-wrap">
+      <section class="card" aria-label="웹 명함">
+        <div class="avatar-area">
+          <canvas
+            id="avatarCanvas"
+            width="220"
+            height="220"
+            aria-label="안경 낀 멋진 남자 캐릭터"
+            role="img"
+          ></canvas>
+        </div>
+
+        <div class="info-area">
+          <h1 class="name">kyoodol</h1>
+          <p class="job">Major/ ROKA</p>
+          <p class="intro">Forever Outsider를 꿈꾸는 늙어버린 소년</p>
+          <p class="email">kyoodol@mail.com</p>
+          <p class="phone">010-6666-8888</p>
+          <button id="copyBtn" type="button">이메일 복사</button>
+          <p id="toast" class="toast" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
